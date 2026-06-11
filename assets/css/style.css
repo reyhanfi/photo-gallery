@@ -19,7 +19,7 @@ body {
    HERO SECTION
 =========================== */
 .hero-section {
-    background-image: url('../img/hero-bg.jpg');
+    background-image: url('../img/bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,14 +30,7 @@ body {
     position: relative;
 }
 
-/* Overlay gelap supaya teks tetap terbaca */
-.hero-section::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.55);
-    z-index: 0;
-}
+
 
 /* Konten hero harus di atas overlay */
 .hero-section .container {

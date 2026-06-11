@@ -42,11 +42,13 @@ $result_katalog = mysqli_query($conn, $query_katalog);
             <!-- Teks hero -->
             <div class="col-lg-6 mb-5 mb-lg-0">
                 <h1 class="mb-3">
-                    Abadikan Setiap<br>
-                    <span style="color:#4fc3f7">Momen Berharga</span>
+                    Moments<br>
+                    <span style="color:#4fc3f7;font-style:bold">Worth Keeping</span>
                 </h1>
-                <p class="lead mb-4" style="color:rgba(255,255,255,0.8)">
-                    Simpan dan kelompokkan foto kegiatan dalam satu platform yang rapi dan mudah diakses.
+                <p class="lead mb-4" style="color:rgba(255,255,255,0.85);
+                font-size:1.1rem;line-height:1.7">
+                Kumpulan jepretan yang menyimpan cerita, emosi, dan jejak<br class="d-none d-md-block">
+                waktu dalam satu bingkai sederhana.
                 </p>
                 <a href="<?= BASE_URL ?>/pages/catalog.php"
                    class="btn btn-primary btn-lg me-3">

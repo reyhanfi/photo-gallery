@@ -11,7 +11,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= isset($page_title) ? e($page_title) . ' — ' : '' ?>PhotoGallery</title>
+    <title><?= isset($page_title) ? e($page_title) . ' — ' : '' ?>Arey's Catalog</title>
 
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <div class="container">
         <!-- Brand -->
         <a class="navbar-brand fw-bold" href="<?= BASE_URL ?>">
-            <i class="bi bi-camera2 me-2"></i>PhotoGallery
+            </i>Arey's Catalog
         </a>
 
         <!-- Hamburger toggle untuk mobile -->

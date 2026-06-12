@@ -63,8 +63,8 @@ $page_title = 'Login Admin';
 
                     <!-- Logo -->
                     <div class="text-center mb-4">
-                        <i class="bi bi-camera2" style="font-size:3rem;color:#0f3460"></i>
-                        <h4 class="fw-bold mt-2 mb-0">PhotoGallery</h4>
+                        <i style="font-size:3rem;color:#0f3460"></i>
+                        <h4 class="fw-bold mt-2 mb-0">Arey's Catalog</h4>
                         <small class="text-muted">Admin Panel</small>
                     </div>
 

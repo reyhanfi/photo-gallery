@@ -1,0 +1,17 @@
+# Konfigurasi database — JANGAN di-push
+includes/config.php
+
+# File upload pengguna
+assets/uploads/
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Log
+*.log

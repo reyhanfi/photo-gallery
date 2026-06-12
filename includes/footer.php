@@ -3,8 +3,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
-                <i class="bi bi-camera2 me-2"></i>
-                <strong>PhotoGallery</strong> — Dokumentasi Setiap Momen
+                <strong>Arey's Catalog</strong> — Dokumentasi Setiap Momen
             </div>
             <div class="col-md-6 text-center text-md-end">
                 <small class="text-muted">

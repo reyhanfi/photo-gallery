@@ -5,6 +5,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f8f9fa;
     color: #212529;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main, .container, .container-fluid {
+    flex: 1;
 }
 
 /* ===========================

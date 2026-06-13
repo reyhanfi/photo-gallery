@@ -10,6 +10,28 @@ body {
     flex-direction: column;
 }
 
+/* ===========================
+   STICKY FOOTER FIX
+=========================== */
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Semua wrapper konten utama mengisi ruang */
+.container-fluid > .row {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto !important;
+}
+
 
 /* ===========================
    NAVBAR

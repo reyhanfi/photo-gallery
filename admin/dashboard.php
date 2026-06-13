@@ -57,7 +57,7 @@ $result_log = mysqli_query($conn, "
         </div>
 
         <!-- MAIN CONTENT -->
-        <div class="col-md-10 py-4 px-4">
+        <div class="col-md-10 py-4 px-4 d-flex flex-column" style="min-height:calc(100vh - 56px)">
 
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <div>

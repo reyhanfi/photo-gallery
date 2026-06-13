@@ -146,6 +146,7 @@ $result_katalog = mysqli_stmt_get_result($stmt);
                             <p class="text-muted small mb-2" style="
                                 display:-webkit-box;
                                 -webkit-line-clamp:2;
+                                line-clamp:2;
                                 -webkit-box-orient:vertical;
                                 overflow:hidden">
                                 <?= e($katalog['deskripsi']) ?>

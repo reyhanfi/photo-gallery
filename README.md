@@ -101,7 +101,29 @@ Dibangun menggunakan PHP Native, MySQL, dan Bootstrap 5.
 
 ## 📸 Screenshot
 
-*(tambahkan screenshot setelah ambil gambar)*
+### Home Page
+![Home](screenshots/home.png)
+
+### Halaman Catalog
+![Catalog](screenshots/catalog.png)
+
+### Detail Katalog
+![Detail](screenshots/detail.png)
+
+### Form Tambah Katalog
+![Tambah](screenshots/tambah.png)
+
+### Form Edit Katalog
+![Edit](screenshots/edit.png)
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Dashboard Admin
+![Dashboard](screenshots/dashboard.png)
+
+### Tampilan Mobile
+![Mobile](screenshots/mobile.png)
 
 ---
 

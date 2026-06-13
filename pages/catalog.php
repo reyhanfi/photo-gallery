@@ -75,7 +75,7 @@ $result_katalog = mysqli_stmt_get_result($stmt);
 </div>
 
 <!-- MAIN CONTENT -->
-<div class="container py-5">
+<div class="container py-5" style="min-height: calc(100vh - 116px)">
 
     <!-- SEARCH BAR -->
     <div class="row mb-4">

@@ -23,17 +23,25 @@ body {
    HERO SECTION
 =========================== */
 .hero-section {
-    background-image: url('../img/bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(135deg,
+        #0a0a0f 0%,
+        #0d1b2a 25%,
+        #1b2838 50%,
+        #162032 75%,
+        #0a0f1a 100%
+    );
     min-height: 85vh;
     display: flex;
     align-items: center;
     color: white;
     position: relative;
+    padding-top: 2rem;
 }
 
+/* Hapus overlay karena sudah tidak pakai foto */
+.hero-section::before {
+    display: none;
+}
 
 
 /* Konten hero harus di atas overlay */

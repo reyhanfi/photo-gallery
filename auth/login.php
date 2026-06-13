@@ -48,7 +48,20 @@ $page_title = 'Login Admin';
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="<?= BASE_URL ?>/assets/css/style.css" rel="stylesheet">
     <style>
-        body { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); min-height: 100vh; }
+        body {
+    background: linear-gradient(135deg,
+        #0a0a0f 0%,
+        #0d1b2a 25%,
+        #1b2838 50%,
+        #162032 75%,
+        #0a0f1a 100%
+    );
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    }
     </style>
 </head>
 <body class="d-flex align-items-center justify-content-center min-vh-100">
